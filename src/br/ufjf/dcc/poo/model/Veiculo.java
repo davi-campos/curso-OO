@@ -40,7 +40,7 @@ public abstract class Veiculo {
 		this.consumo = consumo;
 	}
 	
-	private double calcularConsumo (double precoLItro) {
+	public double calcularConsumo (double precoLItro) {
 		return 0;
 	}
 

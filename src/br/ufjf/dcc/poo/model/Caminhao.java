@@ -11,9 +11,10 @@ public class Caminhao extends Veiculo{
 	public void setTara(double tara) {
 		this.tara = tara;
 	}
-
-	private double calcularConsumo(double precoLitro) {
-		((this.getCapacidadeTanque()/this.getKmPorLitro())*precoLitro)/this.tara;
+	
+	@Override
+	public double calcularConsumo(double precoLitro) {
+		return ((this.getCapacidadeTanque()/this.getKmPorLitro())*precoLitro)/this.tara;
 	}
 
 }

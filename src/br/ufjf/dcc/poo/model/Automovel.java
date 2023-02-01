@@ -2,8 +2,9 @@ package br.ufjf.dcc.poo.model;
 
 public class Automovel extends Veiculo{
 	
-	private double calcularConsumo(double precoLitro) {
-		(this.getCapacidadeTanque()/this.getKmPorLitro())*precoLitro;
+	@Override
+	public double calcularConsumo(double precoLitro) {
+		return (this.getCapacidadeTanque()/this.getKmPorLitro())*precoLitro;
 	}
 
 }

@@ -3,9 +3,11 @@ package br.ufjf.dcc.poo.model;
 import java.util.ArrayList;
 
 public class Departamento {
+	//variaveis
 	private int codigo;
 	private ArrayList<Funcionario> funcionarios;
-
+	
+	//getters e setters
 	public int getCodigo() {
 		return codigo;
 	}

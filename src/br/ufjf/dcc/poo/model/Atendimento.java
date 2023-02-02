@@ -1,10 +1,12 @@
 package br.ufjf.dcc.poo.model;
 
 public class Atendimento {
+	//variaveis
 	private int codigoAtendimento;
 	private Funcionario funcionario;
 	private Cliente cliente;
-
+	
+	//getters e setters
 	public int getCodigoAtendimento() {
 		return codigoAtendimento;
 	}

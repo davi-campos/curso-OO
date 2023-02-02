@@ -3,10 +3,12 @@ package br.ufjf.dcc.poo.model;
 import java.util.ArrayList;
 
 public class Funcionario extends Pessoa{
+	//variaveis
 	private int matricula;
 	private Departamento departamento;
-	private ArrayList<Atendimento> atendimentos;
-
+	private ArrayList<Atendimento> atendimentos;	
+	
+	//getters e setters
 	public int getMatricula() {
 		return matricula;
 	}

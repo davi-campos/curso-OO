@@ -1,12 +1,14 @@
 package br.ufjf.dcc.poo.model;
 
 public abstract class Pessoa {
+	//variaveis
 	private String nome;
+	private String logradouro;
 	private int numero;
 	private String complemento;
 	private String bairro;
 	
-	
+	//getters e setters
 	public String getNome() {
 		return nome;
 	}
@@ -30,6 +32,12 @@ public abstract class Pessoa {
 	}
 	public void setBairro(String bairro) {
 		this.bairro = bairro;
+	}
+	public String getLogradouro() {
+		return logradouro;
+	}
+	public void setLogradouro(String logradouro) {
+		this.logradouro = logradouro;
 	}
 	
 	

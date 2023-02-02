@@ -75,8 +75,9 @@ public class Principal {
 		disciplina5.setAlunos(alunosDisciplina);
 		
 		//
-		for(Aluno a :alunosDisciplina) {
-			System.out.println(a.getNome());
+		for(Aluno a :disciplina5.getAlunos()) {
+			System.out.println("Nome: "+a.getNome());
+			System.out.println("Sexp: "+a.getSexo());
 		}
 		
 		//metodos

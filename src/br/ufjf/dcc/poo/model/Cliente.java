@@ -7,7 +7,7 @@ public class Cliente extends Pessoa{
 	private double limiteCredito;
 	private int cartaoCredito;
 	private String contato;
-	private Boolean status;
+	private boolean status;
 	
 	private ArrayList<Pedido> pedidos;
 	
@@ -30,10 +30,10 @@ public class Cliente extends Pessoa{
 	public void setContato(String contato) {
 		this.contato = contato;
 	}
-	public Boolean getStatus() {
+	public boolean getStatus() {
 		return status;
 	}
-	public void setStatus(Boolean status) {
+	public void setStatus(boolean status) {
 		this.status = status;
 	}
 	public ArrayList<Pedido> getPedidos() {

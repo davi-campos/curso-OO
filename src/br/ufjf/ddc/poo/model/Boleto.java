@@ -10,7 +10,7 @@ public class Boleto {
 	private double valor;
 	
 	private Socio socio;
-	private ArrayList<Pagamento> pagamentos;
+	private Pagamento pagamento;
 	
 	//getters e setters
 	public String getCodBarra() {
@@ -37,11 +37,11 @@ public class Boleto {
 	public void setSocio(Socio socio) {
 		this.socio = socio;
 	}
-	public ArrayList<Pagamento> getPagamentos() {
-		return pagamentos;
+	public Pagamento getPagamentos() {
+		return pagamento;
 	}
-	public void setPagamentos(ArrayList<Pagamento> pagamentos) {
-		this.pagamentos = pagamentos;
+	public void setPagamentos(Pagamento pagamento) {
+		this.pagamento = pagamento;
 	}
 	
 	
